@@ -12,7 +12,7 @@ export default function TodoList() {
     return localStorage.getItem("theme") === "dark";
   });
 
-  const API_URL = "https://backendfastapi-rdsf.onrender.com/";
+  const API_URL = "https://backendfastapi-rdsf.onrender.com/todos/";
 
   useEffect(() => {
     document.body.className = darkMode ? "dark" : "";
